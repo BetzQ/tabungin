@@ -1,0 +1,196 @@
+/* New CSS */
+.navbar-nav1 a {
+    margin-right: 8px;
+}
+.navbar-nav1 button {
+    width: 80px;
+    height: 35px;
+    border-radius: 10px;
+    font-weight: 800;
+    border: 1px solid rgb(215, 0, 235);
+}
+.navbar-nav1 a:nth-child(1) button {
+    color: rgb(215, 0, 235);
+    box-shadow: 2px 2px 2px rgb(121, 0, 151);
+}
+.navbar-nav1 a:nth-child(2) button {
+    box-shadow: 2px 2px 2px rgb(121, 0, 151);
+    background-color: rgb(215, 0, 235);
+    border: 1px solid rgb(215, 0, 235);
+}
+#toNightMode {
+    margin-top: 2px;
+    border-radius: 10px;
+    padding-bottom: 2px;
+    width: 36px;
+    height: 35px;
+}
+/* ######### */
+/* Mobile Display */
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+#mobileToNightMode,
+#toNightMode,
+.navbar-expand-lg {
+    border: 1px solid rgba(128, 128, 128, 0.233);
+}
+.navbar-nav button {
+    height: 30px;
+}
+.navbar-brand h4 {
+    color: rgb(215, 0, 235);
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    opacity: 0.9;
+    top: 75px;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+input {
+    width: 80%;
+}
+h5 {
+    margin-top: 20px;
+    text-align: left;
+}
+.judulLogin {
+    /* text-shadow: 3px 2px 6px rgba(0, 3, 151, 0.699); */
+    color: rgb(215, 0, 235) !important;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+/* Count Container */
+.countContainer {
+    width: 81%;
+    height: 500px;
+    border-radius: 16px;
+}
+/* ############### */
+.swiper {
+    width: 600px;
+    height: 550px;
+}
+.infoSwiper {
+    width: 81%;
+    height: 70px;
+    margin-top: 15%;
+    padding-top: 45px;
+    border-radius: 16px;
+    background-color: rgb(215, 0, 235);
+    box-shadow: 0px 3px 10px rgb(121, 0, 151);
+}
+.infoSwiper h6 {
+    font-size: 10px;
+}
+.countContainer h6 {
+    font-size: 10px;
+}
+.buttonCW {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.BCW {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.ResultTDNum2,
+.ResultTDNum3 {
+    font-weight: 200;
+}
+/* Desktop Display */
+@media (min-width: 992px) {
+    #toNightMode:hover {
+        opacity: 0.8;
+    }
+    .countContainer h6,
+    .infoSwiper h6 {
+        font-size: 16px;
+    }
+    .infoSwiper {
+        width: 37%;
+        margin-top: 50px;
+        padding-top: 40px;
+    }
+    /* Count Container */
+    .countContainer {
+        width: 83%;
+        height: 500px;
+        border-radius: 16px;
+    }
+    /* ############### */
+    #mySidenav {
+        display: none;
+    }
+    /* Signup NAV */
+    .Signup:hover {
+        transition: 0.2s;
+    }
+    .navbar-brand {
+        margin-left: 185px;
+    }
+    .navbar-nav1 {
+        margin-right: 210px;
+    }
+    .navbar-nav1 a {
+        margin-right: 15px;
+    }
+    .navbar-nav1 a:hover {
+        background-color: rgba(128, 128, 128, 0.04);
+        border-radius: 5px;
+    }
+    .navbar-nav1 a:nth-child(2) button:hover {
+        transition: 0.2s;
+        opacity: 0.8;
+    }
+    .navbar-nav button {
+        margin-top: 2px;
+        border-radius: 10px;
+        padding-bottom: 2px;
+        width: 36px;
+        height: 35px;
+    }
+    .buttonCW:hover {
+        opacity: 1;
+    }
+    .navbar-nav button:hover {
+        opacity: 0.8;
+    }
+}
